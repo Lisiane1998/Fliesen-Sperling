@@ -1,0 +1,215 @@
+body {
+  background-color: #001824;
+  font-family: gill sans;
+  margin: 0%;
+
+}
+
+footer {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+
+
+}
+
+h1,
+h2 {
+  color: #ff9600;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  color: white;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header-image {
+height: 100vh;
+width: 100%;
+object-fit: cover;
+filter: brightness(0.3)
+}
+
+.headline {
+  position: absolute;
+  left: 50px;
+  top:300px;
+  color: white;
+  font-size: 45px;
+  color: white;
+  text-align: justify;
+  width: 500px;
+  text-shadow: 5px 6px rgba(0, 0, 0, 0.813);
+}
+
+.button {
+  position: absolute;
+  background-color: #ff9600;
+  border-color: black;
+  font-size: 25px;
+  font-family: gill sans;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.button :hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button a:link, 
+.button a:visited,
+.button a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  top:0%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container a:hover {
+  color: #ff9600;
+  text-decoration: underline;
+}
+
+.menu a:link,
+.menu a:visited,
+.menu a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin: 16px;
+  padding: 10px;
+}
+
+
+
+.logo {
+  position: relative;
+  left: 25px;
+  top: 16px;
+  width: 180px;
+}
+
+.description {
+  color: white;
+  padding: 20px 80px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+
+
+
+
+.image-gallery {
+  display: flex; /* Flexbox verwenden */
+  justify-content: center; /* Zentrieren der Bilder horizontal */
+  flex-wrap: wrap; /* Umbruch der Bilder bei Bedarf */
+}
+
+.image-gallery img {
+  width: 500px; /* Breite der Bilder anpassen */
+  height: auto; /* Automatische Höhe beibehalten */
+  margin: 5px; /* Abstand zwischen den Bildern */
+  border: 2px solid white;
+}
+
+
+
+
+.container-übermich {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Umbruch der Bilder bei Bedarf */
+   /* Mindestbreite des Containers festlegen */
+   min-width: 300px; /* Ändern Sie diese Zahl je nach Bedarf */
+}
+  
+.text-übermich { 
+  flex: 1; /* Der Textbereich nimmt den verfügbaren Platz ein */
+  padding: 10px; /* Abstand um den Text herum */
+  color: white;
+  font-size:20px;
+  text-align: justify;
+  padding-left: 80px;
+}
+
+.basti-bild {
+  flex: 1; /* Der Bildbereich nimmt den verfügbaren Platz ein */
+  padding: 5px; /* Abstand um das Bild herum */
+  text-align: center; /* Bild auf der rechten Seite ausrichten */
+  padding-right: 40px;
+}
+
+.basti-bild img {
+  max-width: 100%; /* Maximale Breite des Bildes auf 100% des verfügbaren Platzes begrenzen */
+  height: auto; /* Automatische Höhe beibehalten */
+  width: 350px;
+  alt: Bild Sebastian Sperling;
+  border: 2px solid white;
+  
+
+
+}
+
+.kontakt {
+  color: white;
+  padding: 20px 80px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.kontakt a:link,
+.kontakt a:visited,
+.kontakt a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+.kontakt a:hover {
+  text-decoration: underline;
+  color: #ff9600;
+}
+
+
+
+.imginsta {
+  width:70px;
+
+}
+
+
+
